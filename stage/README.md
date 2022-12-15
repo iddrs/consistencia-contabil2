@@ -1,0 +1,1 @@
+Diretório temporário para os dados dos repositórios.
