@@ -686,7 +686,7 @@ def fechamento_orcamentario_32():
     return name, left_value, right_value
 
 def fechamento_controle_111101():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.1.01'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.1.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111101%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111101%" and escrituracao like "S"', True),
@@ -699,7 +699,7 @@ def fechamento_controle_111101():
     return name, left_value, right_value
 
 def fechamento_controle_111102():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.1.02'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.1.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111102%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111102%" and escrituracao like "S"', True),
@@ -712,7 +712,7 @@ def fechamento_controle_111102():
     return name, left_value, right_value
 
 def fechamento_controle_111103():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.1.03'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.1.03'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111103%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111103%" and escrituracao like "S"', True),
@@ -725,7 +725,7 @@ def fechamento_controle_111103():
     return name, left_value, right_value
 
 def fechamento_controle_111104():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.1.04'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.1.04'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111104%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111104%" and escrituracao like "S"', True),
@@ -738,7 +738,7 @@ def fechamento_controle_111104():
     return name, left_value, right_value
 
 def fechamento_controle_111201():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.2.01'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.2.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111201%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111201%" and escrituracao like "S"', True),
@@ -751,7 +751,7 @@ def fechamento_controle_111201():
     return name, left_value, right_value
 
 def fechamento_controle_111202():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.2.02'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.2.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111202%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111202%" and escrituracao like "S"', True),
@@ -764,7 +764,7 @@ def fechamento_controle_111202():
     return name, left_value, right_value
 
 def fechamento_controle_111203():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.2.03'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.2.03'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111203%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111203%" and escrituracao like "S"', True),
@@ -777,7 +777,7 @@ def fechamento_controle_111203():
     return name, left_value, right_value
 
 def fechamento_controle_111204():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.2.04'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.2.04'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111204%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111204%" and escrituracao like "S"', True),
@@ -790,7 +790,7 @@ def fechamento_controle_111204():
     return name, left_value, right_value
 
 def fechamento_controle_111301():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.3.01'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.3.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111301%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111301%" and escrituracao like "S"', True),
@@ -803,7 +803,7 @@ def fechamento_controle_111301():
     return name, left_value, right_value
 
 def fechamento_controle_111302():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.3.02'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.3.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111302%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111302%" and escrituracao like "S"', True),
@@ -816,7 +816,7 @@ def fechamento_controle_111302():
     return name, left_value, right_value
 
 def fechamento_controle_111303():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.3.03'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.3.03'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111303%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111303%" and escrituracao like "S"', True),
@@ -829,7 +829,7 @@ def fechamento_controle_111303():
     return name, left_value, right_value
 
 def fechamento_controle_111304():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.3.04'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.3.04'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111304%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111304%" and escrituracao like "S"', True),
@@ -842,7 +842,7 @@ def fechamento_controle_111304():
     return name, left_value, right_value
 
 def fechamento_controle_111401():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.4.01'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.4.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111401%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111401%" and escrituracao like "S"', True),
@@ -855,7 +855,7 @@ def fechamento_controle_111401():
     return name, left_value, right_value
 
 def fechamento_controle_111402():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.4.02'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.4.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111402%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111402%" and escrituracao like "S"', True),
@@ -868,7 +868,7 @@ def fechamento_controle_111402():
     return name, left_value, right_value
 
 def fechamento_controle_111403():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.4.03'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.4.03'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111403%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111403%" and escrituracao like "S"', True),
@@ -881,7 +881,7 @@ def fechamento_controle_111403():
     return name, left_value, right_value
 
 def fechamento_controle_111404():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.4.04'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.4.04'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111404%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111404%" and escrituracao like "S"', True),
@@ -894,7 +894,7 @@ def fechamento_controle_111404():
     return name, left_value, right_value
 
 def fechamento_controle_111501():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.5.01'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.5.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111501%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111501%" and escrituracao like "S"', True),
@@ -907,7 +907,7 @@ def fechamento_controle_111501():
     return name, left_value, right_value
 
 def fechamento_controle_111502():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.5.02'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.5.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111502%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111502%" and escrituracao like "S"', True),
@@ -920,7 +920,7 @@ def fechamento_controle_111502():
     return name, left_value, right_value
 
 def fechamento_controle_111503():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.5.03'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.5.03'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111503%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111503%" and escrituracao like "S"', True),
@@ -933,7 +933,7 @@ def fechamento_controle_111503():
     return name, left_value, right_value
 
 def fechamento_controle_111504():
-    name = 'Fechamento das contas de controle [7/8]1.1.1.5.04'
+    name = 'Fechamento das contas de controle [7/8].1.1.1.5.04'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7111504%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7111504%" and escrituracao like "S"', True),
@@ -946,7 +946,7 @@ def fechamento_controle_111504():
     return name, left_value, right_value
 
 def fechamento_controle_112101():
-    name = 'Fechamento das contas de controle [7/8]1.1.2.1.01'
+    name = 'Fechamento das contas de controle [7/8].1.1.2.1.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7112101%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7112101%" and escrituracao like "S"', True),
@@ -959,7 +959,7 @@ def fechamento_controle_112101():
     return name, left_value, right_value
 
 def fechamento_controle_112102():
-    name = 'Fechamento das contas de controle [7/8]1.1.2.1.02'
+    name = 'Fechamento das contas de controle [7/8].1.1.2.1.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7112102%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7112102%" and escrituracao like "S"', True),
@@ -972,7 +972,7 @@ def fechamento_controle_112102():
     return name, left_value, right_value
 
 def fechamento_controle_112199():
-    name = 'Fechamento das contas de controle [7/8]1.1.2.1.99'
+    name = 'Fechamento das contas de controle [7/8].1.1.2.1.99'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7112199%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7112199%" and escrituracao like "S"', True),
@@ -985,7 +985,7 @@ def fechamento_controle_112199():
     return name, left_value, right_value
 
 def fechamento_controle_113101():
-    name = 'Fechamento das contas de controle [7/8]1.1.3.1.01'
+    name = 'Fechamento das contas de controle [7/8].1.1.3.1.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7113101%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7113101%" and escrituracao like "S"', True),
@@ -998,7 +998,7 @@ def fechamento_controle_113101():
     return name, left_value, right_value
 
 def fechamento_controle_113102():
-    name = 'Fechamento das contas de controle [7/8]1.1.3.1.02'
+    name = 'Fechamento das contas de controle [7/8].1.1.3.1.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7113102%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7113102%" and escrituracao like "S"', True),
@@ -1011,7 +1011,7 @@ def fechamento_controle_113102():
     return name, left_value, right_value
 
 def fechamento_controle_113103():
-    name = 'Fechamento das contas de controle [7/8]1.1.3.1.03'
+    name = 'Fechamento das contas de controle [7/8].1.1.3.1.03'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7113103%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7113103%" and escrituracao like "S"', True),
@@ -1024,7 +1024,7 @@ def fechamento_controle_113103():
     return name, left_value, right_value
 
 def fechamento_controle_113104():
-    name = 'Fechamento das contas de controle [7/8]1.1.3.1.04'
+    name = 'Fechamento das contas de controle [7/8].1.1.3.1.04'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7113104%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7113104%" and escrituracao like "S"', True),
@@ -1037,7 +1037,7 @@ def fechamento_controle_113104():
     return name, left_value, right_value
 
 def fechamento_controle_113105():
-    name = 'Fechamento das contas de controle [7/8]1.1.3.1.05'
+    name = 'Fechamento das contas de controle [7/8].1.1.3.1.05'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7113105%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7113105%" and escrituracao like "S"', True),
@@ -1050,7 +1050,7 @@ def fechamento_controle_113105():
     return name, left_value, right_value
 
 def fechamento_controle_113108():
-    name = 'Fechamento das contas de controle [7/8]1.1.3.1.08'
+    name = 'Fechamento das contas de controle [7/8].1.1.3.1.08'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7113108%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7113108%" and escrituracao like "S"', True),
@@ -1063,7 +1063,7 @@ def fechamento_controle_113108():
     return name, left_value, right_value
 
 def fechamento_controle_113112():
-    name = 'Fechamento das contas de controle [7/8]1.1.3.1.12'
+    name = 'Fechamento das contas de controle [7/8].1.1.3.1.12'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7113112%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7113112%" and escrituracao like "S"', True),
@@ -1076,7 +1076,7 @@ def fechamento_controle_113112():
     return name, left_value, right_value
 
 def fechamento_controle_113113():
-    name = 'Fechamento das contas de controle [7/8]1.1.3.1.13'
+    name = 'Fechamento das contas de controle [7/8].1.1.3.1.13'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7113113%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7113113%" and escrituracao like "S"', True),
@@ -1089,7 +1089,7 @@ def fechamento_controle_113113():
     return name, left_value, right_value
 
 def fechamento_controle_113199():
-    name = 'Fechamento das contas de controle [7/8]1.1.3.1.99'
+    name = 'Fechamento das contas de controle [7/8].1.1.3.1.99'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7113199%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7113199%" and escrituracao like "S"', True),
@@ -1102,7 +1102,7 @@ def fechamento_controle_113199():
     return name, left_value, right_value
 
 def fechamento_controle_1141():
-    name = 'Fechamento das contas de controle [7/8]1.1.4.1'
+    name = 'Fechamento das contas de controle [7/8].1.1.4.1'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "71141%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "71141%" and escrituracao like "S"', True),
@@ -1115,7 +1115,7 @@ def fechamento_controle_1141():
     return name, left_value, right_value
 
 def fechamento_controle_1142():
-    name = 'Fechamento das contas de controle [7/8]1.1.4.2'
+    name = 'Fechamento das contas de controle [7/8].1.1.4.2'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "71142%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "71142%" and escrituracao like "S"', True),
@@ -1128,7 +1128,7 @@ def fechamento_controle_1142():
     return name, left_value, right_value
 
 def fechamento_controle_1143():
-    name = 'Fechamento das contas de controle [7/8]1.1.4.3'
+    name = 'Fechamento das contas de controle [7/8].1.1.4.3'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "71143%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "71143%" and escrituracao like "S"', True),
@@ -1141,7 +1141,7 @@ def fechamento_controle_1143():
     return name, left_value, right_value
 
 def fechamento_controle_1144():
-    name = 'Fechamento das contas de controle [7/8]1.1.4.4'
+    name = 'Fechamento das contas de controle [7/8].1.1.4.4'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "71144%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "71144%" and escrituracao like "S"', True),
@@ -1154,7 +1154,7 @@ def fechamento_controle_1144():
     return name, left_value, right_value
 
 def fechamento_controle_1145():
-    name = 'Fechamento das contas de controle [7/8]1.1.4.5'
+    name = 'Fechamento das contas de controle [7/8].1.1.4.5'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "71145%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "71145%" and escrituracao like "S"', True),
@@ -1167,7 +1167,7 @@ def fechamento_controle_1145():
     return name, left_value, right_value
 
 def fechamento_controle_119101():
-    name = 'Fechamento das contas de controle [7/8]1.1.9.1.01'
+    name = 'Fechamento das contas de controle [7/8].1.1.9.1.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7119101%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7119101%" and escrituracao like "S"', True),
@@ -1180,7 +1180,7 @@ def fechamento_controle_119101():
     return name, left_value, right_value
 
 def fechamento_controle_119102():
-    name = 'Fechamento das contas de controle [7/8]1.1.9.1.02'
+    name = 'Fechamento das contas de controle [7/8].1.1.9.1.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7119102%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7119102%" and escrituracao like "S"', True),
@@ -1193,7 +1193,7 @@ def fechamento_controle_119102():
     return name, left_value, right_value
 
 def fechamento_controle_119103():
-    name = 'Fechamento das contas de controle [7/8]1.1.9.1.03'
+    name = 'Fechamento das contas de controle [7/8].1.1.9.1.03'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7119103%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7119103%" and escrituracao like "S"', True),
@@ -1206,7 +1206,7 @@ def fechamento_controle_119103():
     return name, left_value, right_value
 
 def fechamento_controle_119104():
-    name = 'Fechamento das contas de controle [7/8]1.1.9.1.04'
+    name = 'Fechamento das contas de controle [7/8].1.1.9.1.04'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7119104%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7119104%" and escrituracao like "S"', True),
@@ -1219,7 +1219,7 @@ def fechamento_controle_119104():
     return name, left_value, right_value
 
 def fechamento_controle_119105():
-    name = 'Fechamento das contas de controle [7/8]1.1.9.1.05'
+    name = 'Fechamento das contas de controle [7/8].1.1.9.1.05'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7119105%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7119105%" and escrituracao like "S"', True),
@@ -1232,7 +1232,7 @@ def fechamento_controle_119105():
     return name, left_value, right_value
 
 def fechamento_controle_121101():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.1.01'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.1.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121101%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121101%" and escrituracao like "S"', True),
@@ -1245,7 +1245,7 @@ def fechamento_controle_121101():
     return name, left_value, right_value
 
 def fechamento_controle_121102():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.1.02'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.1.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121102%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121102%" and escrituracao like "S"', True),
@@ -1258,7 +1258,7 @@ def fechamento_controle_121102():
     return name, left_value, right_value
 
 def fechamento_controle_121103():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.1.03'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.1.03'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121103%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121103%" and escrituracao like "S"', True),
@@ -1271,7 +1271,7 @@ def fechamento_controle_121103():
     return name, left_value, right_value
 
 def fechamento_controle_121104():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.1.04'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.1.04'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121104%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121104%" and escrituracao like "S"', True),
@@ -1284,7 +1284,7 @@ def fechamento_controle_121104():
     return name, left_value, right_value
 
 def fechamento_controle_121201():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.2.01'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.2.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121201%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121201%" and escrituracao like "S"', True),
@@ -1297,7 +1297,7 @@ def fechamento_controle_121201():
     return name, left_value, right_value
 
 def fechamento_controle_121202():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.2.02'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.2.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121202%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121202%" and escrituracao like "S"', True),
@@ -1310,7 +1310,7 @@ def fechamento_controle_121202():
     return name, left_value, right_value
 
 def fechamento_controle_121203():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.2.03'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.2.03'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121203%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121203%" and escrituracao like "S"', True),
@@ -1323,7 +1323,7 @@ def fechamento_controle_121203():
     return name, left_value, right_value
 
 def fechamento_controle_121204():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.2.04'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.2.04'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121204%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121204%" and escrituracao like "S"', True),
@@ -1336,7 +1336,7 @@ def fechamento_controle_121204():
     return name, left_value, right_value
 
 def fechamento_controle_121301():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.3.01'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.3.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121301%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121301%" and escrituracao like "S"', True),
@@ -1349,7 +1349,7 @@ def fechamento_controle_121301():
     return name, left_value, right_value
 
 def fechamento_controle_121302():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.3.02'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.3.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121302%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121302%" and escrituracao like "S"', True),
@@ -1362,7 +1362,7 @@ def fechamento_controle_121302():
     return name, left_value, right_value
 
 def fechamento_controle_121303():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.3.03'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.3.03'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121303%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121303%" and escrituracao like "S"', True),
@@ -1375,7 +1375,7 @@ def fechamento_controle_121303():
     return name, left_value, right_value
 
 def fechamento_controle_121304():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.3.04'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.3.04'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121304%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121304%" and escrituracao like "S"', True),
@@ -1388,7 +1388,7 @@ def fechamento_controle_121304():
     return name, left_value, right_value
 
 def fechamento_controle_121401():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.4.01'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.4.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121401%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121401%" and escrituracao like "S"', True),
@@ -1401,7 +1401,7 @@ def fechamento_controle_121401():
     return name, left_value, right_value
 
 def fechamento_controle_121402():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.4.02'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.4.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121402%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121402%" and escrituracao like "S"', True),
@@ -1414,7 +1414,7 @@ def fechamento_controle_121402():
     return name, left_value, right_value
 
 def fechamento_controle_121403():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.4.03'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.4.03'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121403%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121403%" and escrituracao like "S"', True),
@@ -1427,7 +1427,7 @@ def fechamento_controle_121403():
     return name, left_value, right_value
 
 def fechamento_controle_121404():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.4.04'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.4.04'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121404%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121404%" and escrituracao like "S"', True),
@@ -1440,7 +1440,7 @@ def fechamento_controle_121404():
     return name, left_value, right_value
 
 def fechamento_controle_121501():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.5.01'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.5.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121501%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121501%" and escrituracao like "S"', True),
@@ -1453,7 +1453,7 @@ def fechamento_controle_121501():
     return name, left_value, right_value
 
 def fechamento_controle_121502():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.5.02'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.5.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121502%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121502%" and escrituracao like "S"', True),
@@ -1466,7 +1466,7 @@ def fechamento_controle_121502():
     return name, left_value, right_value
 
 def fechamento_controle_121503():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.5.03'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.5.03'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121503%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121503%" and escrituracao like "S"', True),
@@ -1479,7 +1479,7 @@ def fechamento_controle_121503():
     return name, left_value, right_value
 
 def fechamento_controle_121504():
-    name = 'Fechamento das contas de controle [7/8]1.2.1.5.04'
+    name = 'Fechamento das contas de controle [7/8].1.2.1.5.04'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7121504%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7121504%" and escrituracao like "S"', True),
@@ -1492,7 +1492,7 @@ def fechamento_controle_121504():
     return name, left_value, right_value
 
 def fechamento_controle_122101():
-    name = 'Fechamento das contas de controle [7/8]1.2.2.1.01'
+    name = 'Fechamento das contas de controle [7/8].1.2.2.1.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7122101%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7122101%" and escrituracao like "S"', True),
@@ -1505,7 +1505,7 @@ def fechamento_controle_122101():
     return name, left_value, right_value
 
 def fechamento_controle_122102():
-    name = 'Fechamento das contas de controle [7/8]1.2.2.1.02'
+    name = 'Fechamento das contas de controle [7/8].1.2.2.1.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7122102%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7122102%" and escrituracao like "S"', True),
@@ -1518,7 +1518,7 @@ def fechamento_controle_122102():
     return name, left_value, right_value
 
 def fechamento_controle_122199():
-    name = 'Fechamento das contas de controle [7/8]1.2.2.1.99'
+    name = 'Fechamento das contas de controle [7/8].1.2.2.1.99'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7122199%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7122199%" and escrituracao like "S"', True),
@@ -1531,7 +1531,7 @@ def fechamento_controle_122199():
     return name, left_value, right_value
 
 def fechamento_controle_123101():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.01'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123101%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123101%" and escrituracao like "S"', True),
@@ -1544,7 +1544,7 @@ def fechamento_controle_123101():
     return name, left_value, right_value
 
 def fechamento_controle_123102():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.02'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123102%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123102%" and escrituracao like "S"', True),
@@ -1557,7 +1557,7 @@ def fechamento_controle_123102():
     return name, left_value, right_value
 
 def fechamento_controle_123103():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.03'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.03'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123103%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123103%" and escrituracao like "S"', True),
@@ -1570,7 +1570,7 @@ def fechamento_controle_123103():
     return name, left_value, right_value
 
 def fechamento_controle_123104():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.04'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.04'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123104%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123104%" and escrituracao like "S"', True),
@@ -1583,7 +1583,7 @@ def fechamento_controle_123104():
     return name, left_value, right_value
 
 def fechamento_controle_123105():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.05'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.05'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123105%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123105%" and escrituracao like "S"', True),
@@ -1596,7 +1596,7 @@ def fechamento_controle_123105():
     return name, left_value, right_value
 
 def fechamento_controle_123106():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.06'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.06'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123106%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123106%" and escrituracao like "S"', True),
@@ -1609,7 +1609,7 @@ def fechamento_controle_123106():
     return name, left_value, right_value
 
 def fechamento_controle_123107():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.07'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.07'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123107%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123107%" and escrituracao like "S"', True),
@@ -1622,7 +1622,7 @@ def fechamento_controle_123107():
     return name, left_value, right_value
 
 def fechamento_controle_123108():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.08'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.08'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123108%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123108%" and escrituracao like "S"', True),
@@ -1635,7 +1635,7 @@ def fechamento_controle_123108():
     return name, left_value, right_value
 
 def fechamento_controle_123109():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.09'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.09'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123109%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123109%" and escrituracao like "S"', True),
@@ -1648,7 +1648,7 @@ def fechamento_controle_123109():
     return name, left_value, right_value
 
 def fechamento_controle_123110():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.10'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.10'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123110%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123110%" and escrituracao like "S"', True),
@@ -1661,7 +1661,7 @@ def fechamento_controle_123110():
     return name, left_value, right_value
 
 def fechamento_controle_123111():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.11'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.11'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123111%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123111%" and escrituracao like "S"', True),
@@ -1674,7 +1674,7 @@ def fechamento_controle_123111():
     return name, left_value, right_value
 
 def fechamento_controle_123112():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.12'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.12'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123112%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123112%" and escrituracao like "S"', True),
@@ -1687,7 +1687,7 @@ def fechamento_controle_123112():
     return name, left_value, right_value
 
 def fechamento_controle_123113():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.13'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.13'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123113%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123113%" and escrituracao like "S"', True),
@@ -1700,7 +1700,7 @@ def fechamento_controle_123113():
     return name, left_value, right_value
 
 def fechamento_controle_123199():
-    name = 'Fechamento das contas de controle [7/8]1.2.3.1.99'
+    name = 'Fechamento das contas de controle [7/8].1.2.3.1.99'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7123199%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7123199%" and escrituracao like "S"', True),
@@ -1713,7 +1713,7 @@ def fechamento_controle_123199():
     return name, left_value, right_value
 
 def fechamento_controle_1241():
-    name = 'Fechamento das contas de controle [7/8]1.2.4.1'
+    name = 'Fechamento das contas de controle [7/8].1.2.4.1'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "71241%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "71241%" and escrituracao like "S"', True),
@@ -1726,7 +1726,7 @@ def fechamento_controle_1241():
     return name, left_value, right_value
 
 def fechamento_controle_1242():
-    name = 'Fechamento das contas de controle [7/8]1.2.4.2'
+    name = 'Fechamento das contas de controle [7/8].1.2.4.2'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "71242%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "71242%" and escrituracao like "S"', True),
@@ -1739,7 +1739,7 @@ def fechamento_controle_1242():
     return name, left_value, right_value
 
 def fechamento_controle_1243():
-    name = 'Fechamento das contas de controle [7/8]1.2.4.3'
+    name = 'Fechamento das contas de controle [7/8].1.2.4.3'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "71243%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "71243%" and escrituracao like "S"', True),
@@ -1752,7 +1752,7 @@ def fechamento_controle_1243():
     return name, left_value, right_value
 
 def fechamento_controle_1244():
-    name = 'Fechamento das contas de controle [7/8]1.2.4.4'
+    name = 'Fechamento das contas de controle [7/8].1.2.4.4'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "71244%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "71244%" and escrituracao like "S"', True),
@@ -1765,7 +1765,7 @@ def fechamento_controle_1244():
     return name, left_value, right_value
 
 def fechamento_controle_1245():
-    name = 'Fechamento das contas de controle [7/8]1.2.4.5'
+    name = 'Fechamento das contas de controle [7/8].1.2.4.5'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "71245%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "71245%" and escrituracao like "S"', True),
@@ -1778,7 +1778,7 @@ def fechamento_controle_1245():
     return name, left_value, right_value
 
 def fechamento_controle_129101():
-    name = 'Fechamento das contas de controle [7/8]1.2.9.1.01'
+    name = 'Fechamento das contas de controle [7/8].1.2.9.1.01'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7129101%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7129101%" and escrituracao like "S"', True),
@@ -1791,7 +1791,7 @@ def fechamento_controle_129101():
     return name, left_value, right_value
 
 def fechamento_controle_129102():
-    name = 'Fechamento das contas de controle [7/8]1.2.9.1.02'
+    name = 'Fechamento das contas de controle [7/8].1.2.9.1.02'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7129102%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7129102%" and escrituracao like "S"', True),
@@ -1804,7 +1804,7 @@ def fechamento_controle_129102():
     return name, left_value, right_value
 
 def fechamento_controle_1292():
-    name = 'Fechamento das contas de controle [7/8]1.2.9.2'
+    name = 'Fechamento das contas de controle [7/8].1.2.9.2'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "71292%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "71292%" and escrituracao like "S"', True),
@@ -1817,7 +1817,7 @@ def fechamento_controle_1292():
     return name, left_value, right_value
 
 def fechamento_controle_1293():
-    name = 'Fechamento das contas de controle [7/8]1.2.9.3'
+    name = 'Fechamento das contas de controle [7/8].1.2.9.3'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "71293%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "71293%" and escrituracao like "S"', True),
@@ -1830,7 +1830,7 @@ def fechamento_controle_1293():
     return name, left_value, right_value
 
 def fechamento_controle_21():
-    name = 'Fechamento das contas de controle [7/8]2.1'
+    name = 'Fechamento das contas de controle [7/8].2.1'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "721%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "721%" and escrituracao like "S"', True),
@@ -1843,7 +1843,7 @@ def fechamento_controle_21():
     return name, left_value, right_value
 
 def fechamento_controle_22():
-    name = 'Fechamento das contas de controle [7/8]2.2'
+    name = 'Fechamento das contas de controle [7/8].2.2'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "722%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "722%" and escrituracao like "S"', True),
@@ -1856,7 +1856,7 @@ def fechamento_controle_22():
     return name, left_value, right_value
 
 def fechamento_controle_23():
-    name = 'Fechamento das contas de controle [7/8]2.3'
+    name = 'Fechamento das contas de controle [7/8].2.3'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "723%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "723%" and escrituracao like "S"', True),
@@ -1869,7 +1869,7 @@ def fechamento_controle_23():
     return name, left_value, right_value
 
 def fechamento_controle_24():
-    name = 'Fechamento das contas de controle [7/8]2.4'
+    name = 'Fechamento das contas de controle [7/8].2.4'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "724%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "724%" and escrituracao like "S"', True),
@@ -1882,7 +1882,7 @@ def fechamento_controle_24():
     return name, left_value, right_value
 
 def fechamento_controle_31():
-    name = 'Fechamento das contas de controle [7/8]3.1'
+    name = 'Fechamento das contas de controle [7/8].3.1'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "731%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "731%" and escrituracao like "S"', True),
@@ -1895,7 +1895,7 @@ def fechamento_controle_31():
     return name, left_value, right_value
 
 def fechamento_controle_32():
-    name = 'Fechamento das contas de controle [7/8]3.2'
+    name = 'Fechamento das contas de controle [7/8].3.2'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "732%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "732%" and escrituracao like "S"', True),
@@ -1908,7 +1908,7 @@ def fechamento_controle_32():
     return name, left_value, right_value
 
 def fechamento_controle_4111():
-    name = 'Fechamento das contas de controle [7/8]4.1.1.1'
+    name = 'Fechamento das contas de controle [7/8].4.1.1.1'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "74111%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "74111%" and escrituracao like "S"', True),
@@ -1921,7 +1921,7 @@ def fechamento_controle_4111():
     return name, left_value, right_value
 
 def fechamento_controle_4112():
-    name = 'Fechamento das contas de controle [7/8]4.1.1.2'
+    name = 'Fechamento das contas de controle [7/8].4.1.1.2'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "74112%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "74112%" and escrituracao like "S"', True),
@@ -1934,7 +1934,7 @@ def fechamento_controle_4112():
     return name, left_value, right_value
 
 def fechamento_controle_4113():
-    name = 'Fechamento das contas de controle [7/8]4.1.1.3'
+    name = 'Fechamento das contas de controle [7/8].4.1.1.3'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "74113%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "74113%" and escrituracao like "S"', True),
@@ -1947,7 +1947,7 @@ def fechamento_controle_4113():
     return name, left_value, right_value
 
 def fechamento_controle_4114():
-    name = 'Fechamento das contas de controle [7/8]4.1.1.4'
+    name = 'Fechamento das contas de controle [7/8].4.1.1.4'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "74114%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "74114%" and escrituracao like "S"', True),
@@ -1960,7 +1960,7 @@ def fechamento_controle_4114():
     return name, left_value, right_value
 
 def fechamento_controle_4115():
-    name = 'Fechamento das contas de controle [7/8]4.1.1.5'
+    name = 'Fechamento das contas de controle [7/8].4.1.1.5'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "74115%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "74115%" and escrituracao like "S"', True),
@@ -1973,7 +1973,7 @@ def fechamento_controle_4115():
     return name, left_value, right_value
 
 def fechamento_controle_4119():
-    name = 'Fechamento das contas de controle [7/8]4.1.1.9'
+    name = 'Fechamento das contas de controle [7/8].4.1.1.9'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "74119%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "74119%" and escrituracao like "S"', True),
@@ -1986,7 +1986,7 @@ def fechamento_controle_4119():
     return name, left_value, right_value
 
 def fechamento_controle_4211():
-    name = 'Fechamento das contas de controle [7/8]4.2.1.1'
+    name = 'Fechamento das contas de controle [7/8].4.2.1.1'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "74211%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "74211%" and escrituracao like "S"', True),
@@ -1999,7 +1999,7 @@ def fechamento_controle_4211():
     return name, left_value, right_value
 
 def fechamento_controle_4212():
-    name = 'Fechamento das contas de controle [7/8]4.2.1.2'
+    name = 'Fechamento das contas de controle [7/8].4.2.1.2'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "74212%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "74212%" and escrituracao like "S"', True),
@@ -2012,7 +2012,7 @@ def fechamento_controle_4212():
     return name, left_value, right_value
 
 def fechamento_controle_4213():
-    name = 'Fechamento das contas de controle [7/8]4.2.1.3'
+    name = 'Fechamento das contas de controle [7/8].4.2.1.3'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "74213%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "74213%" and escrituracao like "S"', True),
@@ -2025,7 +2025,7 @@ def fechamento_controle_4213():
     return name, left_value, right_value
 
 def fechamento_controle_4214():
-    name = 'Fechamento das contas de controle [7/8]4.2.1.4'
+    name = 'Fechamento das contas de controle [7/8].4.2.1.4'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "74214%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "74214%" and escrituracao like "S"', True),
@@ -2038,7 +2038,7 @@ def fechamento_controle_4214():
     return name, left_value, right_value
 
 def fechamento_controle_52():
-    name = 'Fechamento das contas de controle [7/8]5.2'
+    name = 'Fechamento das contas de controle [7/8].5.2'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "752%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "752%" and escrituracao like "S"', True),
@@ -2051,7 +2051,7 @@ def fechamento_controle_52():
     return name, left_value, right_value
 
 def fechamento_controle_531():
-    name = 'Fechamento das contas de controle [7/8]5.3.1'
+    name = 'Fechamento das contas de controle [7/8].5.3.1'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7531%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7531%" and escrituracao like "S"', True),
@@ -2064,7 +2064,7 @@ def fechamento_controle_531():
     return name, left_value, right_value
 
 def fechamento_controle_532():
-    name = 'Fechamento das contas de controle [7/8]5.3.2'
+    name = 'Fechamento das contas de controle [7/8].5.3.2'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7532%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7532%" and escrituracao like "S"', True),
@@ -2077,7 +2077,7 @@ def fechamento_controle_532():
     return name, left_value, right_value
 
 def fechamento_controle_533():
-    name = 'Fechamento das contas de controle [7/8]5.3.3'
+    name = 'Fechamento das contas de controle [7/8].5.3.3'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7533%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7533%" and escrituracao like "S"', True),
@@ -2090,7 +2090,7 @@ def fechamento_controle_533():
     return name, left_value, right_value
 
 def fechamento_controle_534():
-    name = 'Fechamento das contas de controle [7/8]5.3.4'
+    name = 'Fechamento das contas de controle [7/8].5.3.4'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7534%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7534%" and escrituracao like "S"', True),
@@ -2103,7 +2103,7 @@ def fechamento_controle_534():
     return name, left_value, right_value
 
 def fechamento_controle_535():
-    name = 'Fechamento das contas de controle [7/8]5.3.5'
+    name = 'Fechamento das contas de controle [7/8].5.3.5'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7535%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7535%" and escrituracao like "S"', True),
@@ -2116,7 +2116,7 @@ def fechamento_controle_535():
     return name, left_value, right_value
 
 def fechamento_controle_536():
-    name = 'Fechamento das contas de controle [7/8]5.3.6'
+    name = 'Fechamento das contas de controle [7/8].5.3.6'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7536%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7536%" and escrituracao like "S"', True),
@@ -2129,7 +2129,7 @@ def fechamento_controle_536():
     return name, left_value, right_value
 
 def fechamento_controle_537():
-    name = 'Fechamento das contas de controle [7/8]5.3.7'
+    name = 'Fechamento das contas de controle [7/8].5.3.7'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7537%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7537%" and escrituracao like "S"', True),
@@ -2142,7 +2142,7 @@ def fechamento_controle_537():
     return name, left_value, right_value
 
 def fechamento_controle_611():
-    name = 'Fechamento das contas de controle [7/8]6.1.1'
+    name = 'Fechamento das contas de controle [7/8].6.1.1'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7611%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7611%" and escrituracao like "S"', True),
@@ -2155,7 +2155,7 @@ def fechamento_controle_611():
     return name, left_value, right_value
 
 def fechamento_controle_612():
-    name = 'Fechamento das contas de controle [7/8]6.1.2'
+    name = 'Fechamento das contas de controle [7/8].6.1.2'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7612%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7612%" and escrituracao like "S"', True),
@@ -2168,7 +2168,7 @@ def fechamento_controle_612():
     return name, left_value, right_value
 
 def fechamento_controle_613():
-    name = 'Fechamento das contas de controle [7/8]6.1.3'
+    name = 'Fechamento das contas de controle [7/8].6.1.3'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7613%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7613%" and escrituracao like "S"', True),
@@ -2181,7 +2181,7 @@ def fechamento_controle_613():
     return name, left_value, right_value
 
 def fechamento_controle_619():
-    name = 'Fechamento das contas de controle [7/8]6.1.9'
+    name = 'Fechamento das contas de controle [7/8].6.1.9'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7619%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7619%" and escrituracao like "S"', True),
@@ -2190,5 +2190,317 @@ def fechamento_controle_619():
     right_value = [
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "8619%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "8619%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_62():
+    name = 'Fechamento das contas de controle [7/8].6.2'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "762%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "762%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "862%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "862%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_631():
+    name = 'Fechamento das contas de controle [7/8].6.3.1'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7631%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7631%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "8631%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "8631%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_632():
+    name = 'Fechamento das contas de controle [7/8].6.3.2'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7632%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7632%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "8632%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "8632%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_633():
+    name = 'Fechamento das contas de controle [7/8].6.3.3'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7633%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7633%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "8633%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "8633%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_8():
+    name = 'Fechamento das contas de controle [7/8].8'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "78%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "78%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "88%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "88%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9111():
+    name = 'Fechamento das contas de controle [7/8].9.1.1.1'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79111%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79111%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89111%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89111%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9112():
+    name = 'Fechamento das contas de controle [7/8].9.1.1.2'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79112%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79112%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89112%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89112%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9113():
+    name = 'Fechamento das contas de controle [7/8].9.1.1.3'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79113%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79113%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89113%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89113%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9114():
+    name = 'Fechamento das contas de controle [7/8].9.1.1.4'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79114%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79114%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89114%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89114%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9115():
+    name = 'Fechamento das contas de controle [7/8].9.1.1.5'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79115%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79115%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89115%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89115%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9119():
+    name = 'Fechamento das contas de controle [7/8].9.1.1.9'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79119%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79119%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89119%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89119%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9121():
+    name = 'Fechamento das contas de controle [7/8].9.1.2.1'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79121%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79121%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89121%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89121%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9122():
+    name = 'Fechamento das contas de controle [7/8].9.1.2.2'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79122%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79122%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89122%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89122%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9124():
+    name = 'Fechamento das contas de controle [7/8].9.1.2.4'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79124%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79124%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89124%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89124%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9125():
+    name = 'Fechamento das contas de controle [7/8].9.1.2.5'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79125%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79125%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89125%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89125%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_912901():
+    name = 'Fechamento das contas de controle [7/8].9.1.2.9.01'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7912901%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7912901%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "8912901%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "8912901%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_925():
+    name = 'Fechamento das contas de controle [7/8].9.2.5'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7925%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7925%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "8925%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "8925%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_926():
+    name = 'Fechamento das contas de controle [7/8].9.2.6'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7926%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7926%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "8926%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "8926%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_929():
+    name = 'Fechamento das contas de controle [7/8].9.2.9'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7929%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7929%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "8929%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "8929%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9991():
+    name = 'Fechamento das contas de controle [7/8].9.9.9.1'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79991%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79991%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89991%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89991%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9992():
+    name = 'Fechamento das contas de controle [7/8].9.9.9.2'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79992%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79992%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89992%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89992%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9993():
+    name = 'Fechamento das contas de controle [7/8].9.9.9.3'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79993%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79993%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89993%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89993%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9994():
+    name = 'Fechamento das contas de controle [7/8].9.9.9.4'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79994%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79994%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89994%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89994%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def fechamento_controle_9995():
+    name = 'Fechamento das contas de controle [7/8].9.9.9.5'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "79995%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "79995%" and escrituracao like "S"', True),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "89995%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89995%" and escrituracao like "S"', True),
     ]
     return name, left_value, right_value
