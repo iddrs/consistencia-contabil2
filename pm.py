@@ -10,7 +10,11 @@ import glob
 
 from contest.repository import PadRepo
 
-padrepo = PadRepo(path=r'C:\Users\Everton\Desktop\Prefeitura\PAD\v2\current\pickle', entities=['pm'])
+ano = input('Informe o ano desejado [AAAA]: ')
+mes = input('Informe o mês desejado [MM]: ').zfill(2)
+
+
+padrepo = PadRepo(path=os.path.join(r'C:\Users\Everton\Desktop\Prefeitura\PAD\v2', f'{ano}-{mes}', 'pickle'), entities=['pm'])
 # Verifica se tem arquivos em stage e exclui se o usuário quiser
 stage_files = glob.glob(os.path.join(padrepo.stage_path, '*.db'))
 
