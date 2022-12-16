@@ -227,6 +227,14 @@ check_rules = (
     fechamento_controle_9993,
     fechamento_controle_9994,
     fechamento_controle_9995,
+    disponibilidades,
+    resultado_financeiro,
+    resultado_periodo,
+    situacao_financeira_orcamentaria,
+    ddr_disponivel,
+    ddr_comprometida_empenho,
+    ddr_comprometida_liquidacao,
+    ddr_utilizada,
 )
 
 engine = DefaultEngine(repositories=[padrepo], reporters=reporters, rules=check_rules)

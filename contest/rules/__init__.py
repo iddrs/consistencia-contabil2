@@ -2504,3 +2504,155 @@ def fechamento_controle_9995():
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "89995%" and escrituracao like "S"', True),
     ]
     return name, left_value, right_value
+
+def disponibilidades():
+    name = 'Disponibilidades'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "7211%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "7211%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "82114%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "82114%" and escrituracao like "S"', False),
+
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "1%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "1%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+    ]
+    return name, left_value, right_value
+
+def resultado_financeiro():
+    name = 'Superávit/déficit financeiro'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "82111%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "82111%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "1%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "1%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "21%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "21%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "22%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "22%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "82112%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "82112%" and escrituracao like "S"', False),
+    ]
+    return name, left_value, right_value
+
+def resultado_periodo():
+    name = 'Resultado do período'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "1%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "1%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "2%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "2%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "4%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "4%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "3%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "3%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def situacao_financeira_orcamentaria():
+    name = 'Situação financeira vs Situação orçamentária'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "82111%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "82111%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_anterior_devedor', 'conta_contabil like "1%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_anterior_credor', 'conta_contabil like "1%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+        ('BAL_VER', 'saldo_anterior_credor', 'conta_contabil like "21%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+        ('BAL_VER', 'saldo_anterior_devedor', 'conta_contabil like "21%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_anterior_credor', 'conta_contabil like "22%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+        ('BAL_VER', 'saldo_anterior_devedor', 'conta_contabil like "22%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_anterior_credor', 'conta_contabil like "82112%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_anterior_devedor', 'conta_contabil like "82112%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "4511%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "4511%" and escrituracao like "S"', True),
+        ('BAL_REC', 'receita_realizada', 'tipo_nivel_receita like "A"', False),
+        ('BAL_DESP', 'valor_empenhado', None, True),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "3511%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "3511%" and escrituracao like "S"', False),
+        ('RESTOS_PAGAR', 'cancelamento_nao_processados', None, False),
+        ('RESTOS_PAGAR', 'cancelamento_processados', None, False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "361710802%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "361710802%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "361719902%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "361719902%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def ddr_disponivel():
+    name = 'DDR disponível'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "82111%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "82111%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "1%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "1%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "21%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "21%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "22%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "22%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "82112%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "82112%" and escrituracao like "S"', False),
+    ]
+    return name, left_value, right_value
+
+def ddr_comprometida_empenho():
+    name = 'DDR comprometida por empenho'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "82112%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "82112%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "6221301%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "6221301%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "6311%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "6311%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def ddr_comprometida_liquidacao():
+    name = 'DDR comprometida por liquidacao e entradas compensatórias'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "82113%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "82113%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "6221303%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "6221303%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "6313%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "6313%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "6321%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "6321%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "113%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "113%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "2188%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_atual_devedor','conta_contabil like "2188%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+    ]
+    return name, left_value, right_value
+
+def ddr_utilizada():
+    name = 'DDR utilizada'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "82114%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "82114%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "6221304%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "6221304%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "6314%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "6314%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "6322%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "6322%" and escrituracao like "S"', True),
+        ('BAL_VER', 'movimento_credor', 'conta_contabil like "113%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'movimento_devedor', 'conta_contabil like "2188%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'movimento_devedor', 'conta_contabil like "218810499%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+        ('BAL_VER', 'saldo_atual_devedor','conta_contabil like "3511%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "3511%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
