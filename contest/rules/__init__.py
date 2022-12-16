@@ -2645,3 +2645,116 @@ def ddr_utilizada():
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "3511%" and escrituracao like "S"', True),
     ]
     return name, left_value, right_value
+
+def receita_despesa_intraorcamentaria():
+    name = 'Receita vs despesa intraorçamentária'
+    left_value = [
+        ('BAL_REC', 'receita_realizada', 'tipo_nivel_receita like "A" and codigo_receita like "7%"', False),
+        ('BAL_REC', 'receita_realizada', 'tipo_nivel_receita like "A" and codigo_receita like "8%"', False),
+    ]
+    right_value = [
+        ('BAL_DESP', 'valor_pago', 'elemento like "__91%"', False),
+    ]
+    return name, left_value, right_value
+
+def movimento_ativo_passivo_intra_ofss():
+    name = 'Movimentação intra-OFSS do ativo e passivo'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "1___2%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "1___2%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "2___2%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "2___2%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def movimento_vpa_vpd_intra_ofss():
+    name = 'Movimentação intra-OFSS das VPA e VPD'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "3___2%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "3___2%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "4___2%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "4___2%" and escrituracao like "S"', True),
+    ]
+    return name, left_value, right_value
+
+def contribuicao_previdenciarai_rpps_a_receber():
+    name = 'Contribuição previdenciária a receber pelo RPPS'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "1136201%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "1136201%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "21882%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "21882%" and escrituracao like "S"', True),
+        ('BAL_DESP', 'liquidado_a_pagar', 'elemento like "319113%"', False)
+    ]
+    return name, left_value, right_value
+
+def suplementacao_reducao_outra_entidade():
+    name = 'Crédito adicional por redução em outra entidade'
+    left_value = [
+        ('DECRETO', 'valor_credito_adicional', 'origem_recurso = 6', False),
+    ]
+    right_value = [
+        ('DECRETO', 'valor_reducao_dotacoes', 'origem_recurso = 6', False),
+    ]
+    return name, left_value, right_value
+
+def dotacao_adicional_fonte_anulacao():
+    name = 'Dotação adicional por fonte: anulação de dotação'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "5221303%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "5221303%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('DECRETO', 'valor_credito_adicional', 'origem_recurso in(5,6)', False),
+    ]
+    return name, left_value, right_value
+
+def credito_especial_reaberto():
+    name = 'Crédito especial reaberto'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "522120202%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "522120202%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('DECRETO', 'valor_reaberto', None, False),
+    ]
+    return name, left_value, right_value
+
+def dotacao_adicional_fonte_excesso():
+    name = 'Dotação adicional por fonte: excesso de arrecadação'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "5221302%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "5221302%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('DECRETO', 'valor_credito_adicional', 'origem_recurso = 2', False),
+    ]
+    return name, left_value, right_value
+
+def dotacao_adicional_fonte_reabertura():
+    name = 'Dotação adicional por fonte: reabertura'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "5221306%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "5221306%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('DECRETO', 'valor_reaberto', None, False),
+    ]
+    return name, left_value, right_value
+
+def dotacao_adicional_fonte_superavit():
+    name = 'Dotação adicional por fonte: superávit financeiro'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "5221301%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "5221301%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('DECRETO', 'valor_credito_adicional', 'origem_recurso = 1', False),
+    ]
+    return name, left_value, right_value
