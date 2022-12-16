@@ -56,17 +56,6 @@ def fechamento_natureza_controle():
     ]
     return name, left_value, right_value
 
-def anulacao_dotacao():
-    name = 'Cancelamento/Anulação de dotações'
-    left_value = [
-        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "5221904%" and escrituracao like "S"', True),
-        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "5221904%" and escrituracao like "S"', False),
-    ]
-    right_value = [
-        ('BAL_DESP', 'reducao_dotacao', None, False),
-    ]
-    return name, left_value, right_value
-
 def suprimento_de_fundos_a_apropriar():
     name = 'Suprimento de fundos a apropriar'
     left_value = [
@@ -265,7 +254,7 @@ def credito_extraordinario_aberto():
     ]
     return name, left_value, right_value
 
-def cancelamento_dotacao():
+def anulacao_dotacao():
     name = 'Cancelamento/Anulação de dotações'
     left_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "5221904%" and escrituracao like "S"', True),

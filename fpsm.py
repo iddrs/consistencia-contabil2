@@ -1,5 +1,5 @@
 '''
-Executa regras relacionadas à entidade Prefeitura.
+Executa regras relacionadas à entidade FPSM.
 '''
 import os.path
 
@@ -14,7 +14,7 @@ ano = input('Informe o ano desejado [AAAA]: ')
 mes = input('Informe o mês desejado [MM]: ').zfill(2)
 
 
-padrepo = PadRepo(path=os.path.join(r'C:\Users\Everton\Desktop\Prefeitura\PAD\v2', f'{ano}-{mes}', 'pickle'), entities=['pm'])
+padrepo = PadRepo(path=os.path.join(r'C:\Users\Everton\Desktop\Prefeitura\PAD\v2', f'{ano}-{mes}', 'pickle'), entities=['fpsm'])
 # Verifica se tem arquivos em stage e exclui se o usuário quiser
 stage_files = glob.glob(os.path.join(padrepo.stage_path, '*.db'))
 
@@ -38,16 +38,11 @@ check_rules = (
     fechamento_natureza_orcamentario,
     fechamento_natureza_controle,
     suprimento_de_fundos_a_apropriar,
-    parcerias_a_apropriar,
-    precatorios_cp_a_pagar,
     contribuicao_previdenciaria_rpps_a_pagar,
-    contribuicao_previdenciaria_inss_a_pagar,
-    fgts_a_pagar,
     passivo_rpp_a_pagar,
     rpp_a_pagar,
     pasep_a_pagar,
     previsao_inicial_receita_bruta,
-    previsao_inicial_deducao_fundeb,
     previsao_inicial_deducao_exceto_fundeb,
     reestimativa_receita,
     dotacao_inicial,
@@ -66,7 +61,6 @@ check_rules = (
     rpp_inscritos_inscricao_saldo_inicial,
     receita_a_realizar,
     receita_bruta_realizada,
-    deducao_receita_fundeb,
     deducao_renuncia_receita,
     deducao_outras,
     credito_empenhado_a_liquidar,

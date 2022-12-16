@@ -6,14 +6,8 @@ import pandas as pd
 
 class ScreenReporter:
     def __init__(self):
+        pd.set_option('display.max_rows', None)
         self.df = pd.DataFrame(columns=['rule_name', 'left_value', 'right_value', 'difference'])
-
-    '''def register(self, data):
-        print(data['rule_name'],
-              '{:,.2f}'.format(data['left']['total']).replace(',', '_').replace('.', ',').replace('_', '.'),
-              '{:,.2f}'.format(data['right']['total']).replace(',', '_').replace('.', ',').replace('_', '.'),
-              '{:,.2f}'.format(data['difference']).replace(',', '_').replace('.', ',').replace('_', '.'),
-              sep='\t')'''
 
     def register(self, data):
         row = {'rule_name': [data['rule_name']],
