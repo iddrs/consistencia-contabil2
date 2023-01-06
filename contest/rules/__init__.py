@@ -2504,8 +2504,8 @@ def disponibilidades():
 
     ]
     right_value = [
-        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "1%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
-        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "1%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "111%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "111%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
     ]
     return name, left_value, right_value
 
@@ -2641,8 +2641,9 @@ def ddr_utilizada():
         ('BAL_VER', 'movimento_credor', 'conta_contabil like "113%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
         ('BAL_VER', 'movimento_devedor', 'conta_contabil like "2188%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
         ('BAL_VER', 'movimento_devedor', 'conta_contabil like "218810499%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
-        ('BAL_VER', 'saldo_atual_devedor','conta_contabil like "3511%" and escrituracao like "S"', False),
-        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "3511%" and escrituracao like "S"', True),
+        # Aparentemente ele causa diferença na Câmara. Talvez porque o sistema usa contas do grupo 1.1.3. Ver o que acontece nas outras entidades.
+        # ('BAL_VER', 'saldo_atual_devedor','conta_contabil like "3511%" and escrituracao like "S"', False),
+        # ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "3511%" and escrituracao like "S"', True),
     ]
     return name, left_value, right_value
 
