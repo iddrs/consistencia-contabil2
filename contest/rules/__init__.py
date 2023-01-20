@@ -2506,6 +2506,8 @@ def disponibilidades():
     right_value = [
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "111%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "111%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "114%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "114%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
     ]
     return name, left_value, right_value
 

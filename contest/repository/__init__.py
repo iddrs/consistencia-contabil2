@@ -22,8 +22,8 @@ class PadRepo:
         return sqlite3.connect(db_path)
 
     def generate_db(self, table_name):
-        path = os.path.join(self.path, f'{table_name}.pickle')
-        df = pd.read_pickle(path)
+        path = os.path.join(self.path, f'{table_name}.parquet')
+        df = pd.read_parquet(path)
         df = self.entities_filter(df=df)
         db_path = os.path.join(self.stage_path, f'{table_name}.db')
         connection = sqlite3.connect(db_path)
