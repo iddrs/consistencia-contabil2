@@ -3,7 +3,7 @@ Executa regras relacionadas à entidade Prefeitura.
 '''
 import os.path
 
-from contest.rules import *
+from contest.rules.mensal import *
 from contest.engine import DefaultEngine
 from contest.reporter import ScreenReporter, ExcelReporter
 import glob
@@ -30,7 +30,7 @@ if len(stage_files) > 0:
         print('Você precisa escolher uma opção válida! Preste atenção da próxima vez...')
         exit()
 
-reporters = [ScreenReporter(), ExcelReporter(r'report.xlsx')]
+reporters = [ScreenReporter(), ExcelReporter(r'report-pm.xlsx')]
 
 
 check_rules = (
