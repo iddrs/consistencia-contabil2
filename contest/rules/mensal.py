@@ -139,6 +139,7 @@ def passivo_rpp_a_pagar():
     ]
     right_value = [
         ('RESTOS_PAGAR', 'saldo_final_processados', None, False),
+        ('RESTOS_PAGAR', 'liquidacao_nao_processados', None, False),
     ]
     return name, left_value, right_value
 
