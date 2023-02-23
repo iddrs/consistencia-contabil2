@@ -231,7 +231,7 @@ check_rules = (
     ddr_disponivel,
     ddr_comprometida_empenho,
     ddr_comprometida_liquidacao,
-    ddr_utilizada,
+    # ddr_utilizada, Desativado porque não estou conseguindo pegar a movimentação extra-orçamentária de forma correta pelos dados do PAD.
 )
 
 engine = DefaultEngine(repositories=[padrepo], reporters=reporters, rules=check_rules)

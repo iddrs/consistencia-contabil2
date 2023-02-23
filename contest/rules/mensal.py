@@ -59,6 +59,8 @@ def fechamento_natureza_controle():
 def suprimento_de_fundos_a_apropriar():
     name = 'Suprimento de fundos a apropriar'
     left_value = [
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "1131102%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "1131102%" and escrituracao like "S"', True),
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "1131199%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "1131199%" and escrituracao like "S"', True),
     ]
@@ -139,7 +141,7 @@ def passivo_rpp_a_pagar():
     ]
     right_value = [
         ('RESTOS_PAGAR', 'saldo_final_processados', None, False),
-        ('RESTOS_PAGAR', 'liquidacao_nao_processados', None, False),
+        ('RESTOS_PAGAR', 'liquidado_a_pagar_nao_processados', None, False),
     ]
     return name, left_value, right_value
 
@@ -2644,9 +2646,8 @@ def ddr_utilizada():
         ('BAL_VER', 'movimento_credor', 'conta_contabil like "113%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
         ('BAL_VER', 'movimento_devedor', 'conta_contabil like "2188%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', False),
         ('BAL_VER', 'movimento_devedor', 'conta_contabil like "218810499%" and escrituracao like "S" and indicador_superavit_financeiro like "F"', True),
-        # Aparentemente ele causa diferença na Câmara. Talvez porque o sistema usa contas do grupo 1.1.3. Ver o que acontece nas outras entidades.
-        # ('BAL_VER', 'saldo_atual_devedor','conta_contabil like "3511%" and escrituracao like "S"', False),
-        # ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "3511%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_devedor','conta_contabil like "3511%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "3511%" and escrituracao like "S"', False),
     ]
     return name, left_value, right_value
 
