@@ -118,6 +118,8 @@ def contribuicao_previdenciaria_inss_a_pagar():
     right_value = [
         ('LIQUIDAC', 'valor_liquidacao', 'rubrica like "31901302%"', False),
         ('PAGAMENT', 'valor_pagamento', 'rubrica like "31901302%"', True),
+        ('LIQUIDAC', 'valor_liquidacao', 'rubrica like "33904720%"', False),
+        ('PAGAMENT', 'valor_pagamento', 'rubrica like "33904720%"', True),
     ]
     return name, left_value, right_value
 
@@ -190,16 +192,38 @@ def previsao_inicial_deducao_fundeb():
     ]
     return name, left_value, right_value
 
-def previsao_inicial_deducao_exceto_fundeb():
-    name = 'Previsão inicial da dedução da receita (exceto FUNDEB)'
+def previsao_inicial_deducao_renuncia():
+    name = 'Previsão inicial da dedução da receita: renúncia e desconto'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "5211202%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "5211202%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('BAL_REC', 'receita_orcada', 'tipo_nivel_receita like "A" and caracteristica_peculiar_receita in(101, 103)', True),
+    ]
+    return name, left_value, right_value
+
+def previsao_inicial_deducao_outras():
+    name = 'Previsão inicial da dedução da receita: outras deduções'
     left_value = [
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "5211299%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "5211299%" and escrituracao like "S"', True),
     ]
     right_value = [
-        ('BAL_REC', 'receita_orcada', 'tipo_nivel_receita like "A" and caracteristica_peculiar_receita not in(0, 105)', True),
+        ('BAL_REC', 'receita_orcada', 'tipo_nivel_receita like "A" and caracteristica_peculiar_receita in(102, 106, 107, 108, 109)', True),
     ]
     return name, left_value, right_value
+
+# def previsao_inicial_deducao_exceto_fundeb():
+#     name = 'Previsão inicial da dedução da receita (exceto FUNDEB)'
+#     left_value = [
+#         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "5211299%" and escrituracao like "S"', False),
+#         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "5211299%" and escrituracao like "S"', True),
+#     ]
+#     right_value = [
+#         ('BAL_REC', 'receita_orcada', 'tipo_nivel_receita like "A" and caracteristica_peculiar_receita not in(0, 105)', True),
+#     ]
+#     return name, left_value, right_value
 
 def reestimativa_receita():
     name = 'Reestimativa da receita'
