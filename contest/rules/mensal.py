@@ -2589,6 +2589,8 @@ def situacao_financeira_orcamentaria():
         ('BAL_VER', 'saldo_anterior_devedor', 'conta_contabil like "82112%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "4511%" and escrituracao like "S"', False),
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "4511%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "451220103%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "451220103%" and escrituracao like "S"', True),
         ('BAL_REC', 'receita_realizada', 'tipo_nivel_receita like "A"', False),
         ('BAL_DESP', 'valor_empenhado', None, True),
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "3511%" and escrituracao like "S"', True),
