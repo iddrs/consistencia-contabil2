@@ -2695,8 +2695,10 @@ def movimento_ativo_passivo_intra_ofss():
         ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "1___2%" and escrituracao like "S"', True),
     ]
     right_value = [
-        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "2___2%" and escrituracao like "S"', False),
-        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "2___2%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "21__2%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "21__2%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "22__2%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "22__2%" and escrituracao like "S"', True),
     ]
     return name, left_value, right_value
 
