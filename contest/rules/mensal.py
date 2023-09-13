@@ -118,6 +118,8 @@ def contribuicao_previdenciaria_inss_a_pagar():
     right_value = [
         ('LIQUIDAC', 'valor_liquidacao', 'rubrica like "31901302%"', False),
         ('PAGAMENT', 'valor_pagamento', 'rubrica like "31901302%"', True),
+        ('LIQUIDAC', 'valor_liquidacao', 'rubrica like "33904718%"', False),
+        ('PAGAMENT', 'valor_pagamento', 'rubrica like "33904718%"', True),
         ('LIQUIDAC', 'valor_liquidacao', 'rubrica like "33904720%"', False),
         ('PAGAMENT', 'valor_pagamento', 'rubrica like "33904720%"', True),
     ]
@@ -457,6 +459,17 @@ def credito_empenhado_a_liquidar():
     right_value = [
         ('BAL_DESP', 'valor_empenhado', None, False),
         ('BAL_DESP', 'valor_liquidado', None, True),
+    ]
+    return name, left_value, right_value
+
+def credito_disponivel():
+    name = 'Crédito disponível'
+    left_value = [
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "62211%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "62211%" and escrituracao like "S"', True),
+    ]
+    right_value = [
+        ('BAL_DESP', 'dotacao_a_empenhar', None, False)
     ]
     return name, left_value, right_value
 

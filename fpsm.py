@@ -65,6 +65,7 @@ check_rules = (
     receita_bruta_realizada,
     deducao_renuncia_receita,
     deducao_outras,
+    credito_disponivel,
     credito_empenhado_a_liquidar,
     empenhos_a_liquidar,
     credito_liquidado_a_pagar,

@@ -60,6 +60,7 @@ check_rules = (
     rpp_inscritos_anos_anteriores,
     rpp_inscritos_inscricao,
     rpp_inscritos_inscricao_saldo_inicial,
+    credito_disponivel,
     credito_empenhado_a_liquidar,
     empenhos_a_liquidar,
     credito_liquidado_a_pagar,
