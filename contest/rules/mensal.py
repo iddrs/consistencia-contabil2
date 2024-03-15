@@ -93,8 +93,8 @@ def precatorios_cp_a_pagar():
         ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "2131108%" and escrituracao like "S"', True),
     ]
     right_value = [
-        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "8129101%" and escrituracao like "S"', False),
-        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "8129101%" and escrituracao like "S"', True),
+        ('BAL_VER', 'saldo_atual_credor', 'conta_contabil like "8990001%" and escrituracao like "S"', False),
+        ('BAL_VER', 'saldo_atual_devedor', 'conta_contabil like "8990001%" and escrituracao like "S"', True),
     ]
     return name, left_value, right_value
 

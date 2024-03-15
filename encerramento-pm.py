@@ -14,7 +14,7 @@ ano = input('Informe o ano desejado [AAAA]: ')
 mes = '12'
 
 
-padrepo = PadRepo(path=os.path.join(r'C:\Users\Everton\Desktop\Prefeitura\PAD', f'{ano}-{mes}', 'parquet'), entities=['pm'])
+padrepo = PadRepo(path=os.path.join(r'C:\Users\Everton\OneDrive - independencia.rs.gov.br\Prefeitura\PAD', f'{ano}-{mes}', 'parquet'), entities=['pm'])
 # Verifica se tem arquivos em stage e exclui se o usuário quiser
 stage_files = glob.glob(os.path.join(padrepo.stage_path, '*.db'))
 
